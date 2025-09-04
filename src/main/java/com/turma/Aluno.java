@@ -1,30 +1,11 @@
 package com.turma;
 
-public class Aluno {
-    private String nome;
-    private int idade;
+public class Aluno extends Pessoa {
     private float nota;
 
     public Aluno(String nome, int idade, float nota) {
-        this.nome = nome;
-        this.idade = idade;
+        super(nome, idade);
         this.nota = nota;
-    }
-
-    public String getNome() {
-        return nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
-    public int getIdade() {
-        return idade;
-    }
-
-    public void setIdade(int idade) {
-        this.idade = idade;
     }
 
     public float getNota() {
@@ -36,24 +17,21 @@ public class Aluno {
     }
 
     @Override
+    public String getTipo() {
+        return "Aluno";
+    }
+
+    @Override
+    public double calcularSalario() {
+        return 0.0; // Alunos não recebem salário
+    }
+
+    @Override
     public String toString() {
         return "Aluno{" +
                 "nome='" + nome + '\'' +
                 ", idade=" + idade +
                 ", nota=" + nota +
                 '}';
-    }
-
-    @Override
-    public boolean equals(Object obj) {
-        if (this == obj) return true;
-        if (obj == null || getClass() != obj.getClass()) return false;
-        Aluno aluno = (Aluno) obj;
-        return nome.equals(aluno.nome);
-    }
-
-    @Override
-    public int hashCode() {
-        return nome.hashCode();
     }
 }
