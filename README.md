@@ -109,3 +109,4 @@ java com.turma.Main
 Este projeto serve como base para aplicação dos demais princípios SOLID (OCP, LSP, ISP, DIP).
 
 <img width="784" height="450" alt="turma" src="https://github.com/user-attachments/assets/ed4c89a0-9536-41df-8757-0e663401129e" />
+<img width="486" height="608" alt="diagram" src="https://github.com/user-attachments/assets/10caf854-5a84-4200-9799-3e0fce911885" />
