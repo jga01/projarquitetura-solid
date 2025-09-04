@@ -1,0 +1,7 @@
+Turma de Java - 2024
+5
+João Silva;20;8.5
+Maria Santos;19;9.2
+Pedro Oliveira;21;7.8
+Ana Costa;20;9.5
+Carlos Pereira;22;8.7
