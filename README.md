@@ -107,3 +107,5 @@ java com.turma.Main
 - Separação clara de responsabilidades
 
 Este projeto serve como base para aplicação dos demais princípios SOLID (OCP, LSP, ISP, DIP).
+
+<img width="784" height="450" alt="turma" src="https://github.com/user-attachments/assets/ed4c89a0-9536-41df-8757-0e663401129e" />
